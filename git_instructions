@@ -1,0 +1,15 @@
+1) git init - Инициализация
+2) git add имя файла - добавить файл для залития
+(git add *) - добавить все файлы
+3) git commit -m "name"
+4) git remote add origin https://github.com/orsenbm/orsenbm.git
+5) git push --set-upstream origin master
+*
+Для проекта который уже залил на сервер
+git add новыйфайл.js
+git commit -m "namecommit"
+git push
+
+//git push - сохранить (на гитхаб) иногда нужно прописать --force
+//Git pull - зазагрузить (с гитхаба)
+
