@@ -13,3 +13,5 @@ git push
 //git push - сохранить (на гитхаб) иногда нужно прописать --force
 //Git pull - зазагрузить (с гитхаба)
 
+git clone https://github.com/orsenbm/orsenbm.git //после гитклона нужно установить зависиомости
+npm install // установка зависиомстей (автоматическая)
