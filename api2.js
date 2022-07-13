@@ -34,11 +34,11 @@ axios.get(`http://local.adspower.net:50325/api/v1/browser/start?user_id=${id}`).
             await newPasswordInput[0].click()
             await page.type('input[name=password]', '5260336Arsen1', {delay: 20})
 
-            // const newPasswordInputXpath2 = (await (await '//*[@id="i10"]'))
-            // await page.waitForXPath(newPasswordInputXpath2)
-            // const newPasswordInput2 = await page.$x(newPasswordInputXpath2)
-            // await newPasswordInput2[0].click()
-            // await page.type('input[name=confirmation_password]', '5260336Arsen1', {delay: 20})
+            const newPasswordInputXpath2 = (await (await '//*[@id="i10"]'))
+            await page.waitForXPath(newPasswordInputXpath2)
+            const newPasswordInput2 = await page.$x(newPasswordInputXpath2)
+            await newPasswordInput2[0].click()
+            await page.type('input[name=confirmation_password]', '5260336Arsen1', {delay: 20})
 
 
 
